@@ -1,0 +1,118 @@
+.title-design {
+    color: #FFFFFF;
+    font-family: "Great Vibes", cursive; 
+    font-weight: bold; 
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+.navbar-css {
+    background-color: #2c2026;
+    color: #FFFFFF;
+}
+
+.coffee-bean-brown {
+    background-color: #AE6F44;
+    color: #FFFFFF;
+}
+
+.bg-light-roast {
+    background-color: #a97b50;
+}
+
+.bg-medium-roast {
+    background-color: #8b5e3b;
+}
+
+.bg-medium-dark-roast {
+    background-color: #603813;
+}
+
+.bg-dark-roast {
+    background-color: #3b2313;
+}
+
+.dark-roast-text {
+    color: #3b2313;
+}
+
+.beige-coffee {
+    background-color: #fbead0;
+    color: #2c2026;
+}
+
+.beige-text {
+    color: #fbead0;
+}
+
+.mug-orange {
+    background-color: #ffaa23;
+}
+
+.mug-text {
+    color: #ffaa23;
+}
+
+.mug-beige {
+    background-color: #fbead0;
+}
+
+.trim-coffee-love {
+    position: absolute;
+    clip: rect(50px, 50px, 50px, 50px);
+    width: 50px;
+}
+
+.two-col {
+    overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .col1,
+.two-col .col2 {
+    width: 49%;
+}
+
+.two-col .col1 {
+    float: left;
+}
+
+.two-col .col2 {
+    float: right;
+}
+
+.two-col label {
+    display: block;
+}
+
+.roasts-title {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FFFFFF;
+    font-weight:bold
+}
+
+.roasts-beige-title {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2c2026;
+    font-weight:bold
+}
+
+.shrink-image {
+    width: 75%;
+    margin-left: 20%;
+}
+
+.bg-still-image {
+  background-image: url("/img/fresh-black-coffee-beans.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}

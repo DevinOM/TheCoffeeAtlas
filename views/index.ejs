@@ -1,0 +1,32 @@
+
+
+    <%- include('layouts/header.ejs') %>
+    <%- include('layouts/newsletter.ejs') %>
+    
+    <!--Newsletter-->
+    <section class="text-light p-5 text-center text-sm-start navbar-css">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning">Coffee Addict</span></h1>
+                    <p class="lead my-4">
+                        Join the coffee crew and receive monthly newsletters on all things coffee!
+                    </p>
+                    <button class="btn btn-warning btn-lrg" data-bs-toggle="modal" data-bs-target="#newsletterSignupModal">Join our Newsletter</button>
+                </div>
+                <img class="img-fluid w-25 d-none d-sm-block" src="/img/coffee-love.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-still-image">
+
+    <%- include('roasts.ejs') %>
+    
+    <%- include('beans.ejs') %>
+    
+    <%- include('layouts/footer.ejs') %>
+
+    </section>
+    
+    

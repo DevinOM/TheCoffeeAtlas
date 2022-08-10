@@ -1,0 +1,36 @@
+<!-- Modal -->
+<div class="modal fade" id="newsletterSignupModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content rounded-0">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center contactform p-6 bg-dark-roast">
+                    <form action="/submitContact" method="post">
+
+                        <div class="modal-header">
+                            <h3 class="mt-3 text-light">Join our Newsletter</h3>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="two-col">
+                                <div class="col1">
+                                    <input type="text" class="form-control my-3" name="fname" aria-describedby="firstname" placeholder="First Name">
+                                </div>
+                                <div class="col2">
+                                    <input type="text" class="form-control my-3" name="lname" aria-describedby="lastname" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <input type="email" class="form-control my-4" name="email" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <button type="submit" class="btn my-2 btn-warning">Subscribe</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>

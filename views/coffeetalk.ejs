@@ -1,0 +1,44 @@
+<%- include('layouts/header.ejs') %>
+<%- include('layouts/blogsubmit.ejs') %>
+
+
+<section class="mug-beige">
+    <section id="roasts">
+        <section class="bg-still-image">
+            <div class="container">
+                <div class="row text-center">
+                    <h1 class="display-5 mt-5 fw-bold roasts-beige-title text-light">Coffee Talk</h1>
+                    <div class="heading-line mb-5">
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <section>
+        <div class="container my-4">
+            <button class="btn btn-warning btn-lrg" data-bs-toggle="modal" data-bs-target="#blogSubmitModal">New Article</button>
+        
+            <% blogs.forEach( blog => { %>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h2 class="card-title"><%= blog.title %></h2>
+                    <div class="card-subtitle text-muted mb-2">
+                        <%= blog.createdAt.toLocaleDateString() %>
+                    </div>
+                    <div class="card-text mb-2"> <h5><%= blog.description %></h5></div>
+                    <div class="card-text mb-2"><%= blog.message %></div>
+                </div>
+            </div>
+            <% }) %>
+        </div>
+    </section>
+
+    <section class="bg-still-image my-5">
+
+    </section>
+
+    <%- include('layouts/footer.ejs') %>
+</section>
+
